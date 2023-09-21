@@ -233,10 +233,19 @@ body{
     scroll-margin-top: 25ex ;
 
 }
-
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 120px;
+    /* border: solid 2px #000; */
+}
 .section2 h2{
     font-size: 32px;
     border-bottom: solid 2px #000;
+    margin: 50px;
+    text-align: center
 }
 .card__container{
     height: 100vh;
